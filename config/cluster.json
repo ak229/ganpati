@@ -1,0 +1,14 @@
+{
+"hosts" : ["172.17.0.7"],
+"bigdata_user" : "root",
+"bigdata_password" : "root",
+"hosts_info" :  [
+{
+"172.17.0.1" : ["kafka","zookeeper"]
+
+},
+{
+"172.17.0.2" : ["cassandra","hadoop"]
+}
+]
+}
