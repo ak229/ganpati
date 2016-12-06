@@ -2,13 +2,16 @@
 "hosts" : ["172.17.0.7"],
 "bigdata_user" : "root",
 "bigdata_password" : "root",
-"hosts_info" :  [
-{
-"172.17.0.1" : ["kafka","zookeeper"]
-
-},
-{
-"172.17.0.2" : ["cassandra","hadoop"]
-}
+"hosts_info_temp" : [
+	{
+	"ip": "172.17.0.4",
+	"module" : ["hadoop"],
+	"submodule" : ["hadoop_standalone"]
+	},
+	{
+	"ip": "172.17.0.8",
+        "module" : ["hadoop"],
+        "submodule" : ["hadoop_cluster_server"]
+	}
 ]
 }

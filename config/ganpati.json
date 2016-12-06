@@ -3,5 +3,5 @@
 "version": "0.0.1",
 "serverHost" : "172.17.0.12",
 "serverPort" : 80,
-"debug" : "True"
+"debug" : "False"
 }
